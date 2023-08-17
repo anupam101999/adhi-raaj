@@ -1,0 +1,22 @@
+body{ 
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: wheat
+}
+
+.slider-container {
+height: 500px;
+width: 800px;
+display: flex;
+overflow: auto;
+scroll-snap-type: X mandatory;
+}
+.slider-container .slide {
+    scroll-snap-align: start;
+}
+.slider-container {
+    width: 800px;
+    height: 100%;
+    object-fit: cover;
+}
